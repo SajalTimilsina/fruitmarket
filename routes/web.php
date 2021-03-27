@@ -38,7 +38,7 @@ Route::resources([
 	]);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('veg.main');
 });
 Route::get('/contact', function () {
     return view('contact.main');
