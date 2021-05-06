@@ -50,6 +50,10 @@ Route::get('/blog', function () {
     return view('blog.main');
 });
 
+Route::get('/time','TimetabelController@index')->name('timetables.index');
+Route::get('/timecreate','TimetabelController@create')->name('timetables.create');
+Route::get('/timestore','TimetabelController@store')->name('timetables.store');
+
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

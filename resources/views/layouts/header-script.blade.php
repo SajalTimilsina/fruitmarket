@@ -10,7 +10,7 @@
 <!-- Favicons Icon -->
 <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-<title>Freshia premium HTML5 &amp; CSS3 template</title>
+<title>Burnhamthrope Fruit Market</title>
 
 <!-- Mobile Specific -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

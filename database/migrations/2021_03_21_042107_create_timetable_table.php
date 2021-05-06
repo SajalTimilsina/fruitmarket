@@ -15,13 +15,16 @@ class CreateTimetableTable extends Migration
     {
         Schema::create('timetable', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('sunday');
+            $table->string('department_id');
+            $table->string('user_id');
             $table->string('monday');
             $table->string('tuesday');
             $table->string('wednesday');
             $table->string('thursday');
             $table->string('friday');
             $table->string('saturday');
+            $table->string('sunday');
+            $table->string('note');
             $table->timestamps();
         });
     }

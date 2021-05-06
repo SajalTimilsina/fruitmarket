@@ -5,47 +5,25 @@
           <div class="row"> 
             <!-- Header Language -->
             <div class="col-xs-12 col-sm-6">
-              <div class="dropdown block-language-wrapper"> <a role="button" data-toggle="dropdown" data-target="#" class="block-language dropdown-toggle" href="#"> <img src="images/english.png" alt="language"> English <span class="caret"></span> </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li role="presentation"> <a href="#"><img src="images/english.png" alt="language"> English </a> </li>
-                  <li role="presentation"> <a href="#"><img src="images/francais.png" alt="language"> French </a> </li>
-                  <li role="presentation"> <a href="#"><img src="images/german.png" alt="language"> German </a> </li>
-                </ul>
-              </div>
+           
               <!-- End Header Language --> 
               
               <!-- Header Currency -->
-              <div class="dropdown block-currency-wrapper"> <a role="button" data-toggle="dropdown" data-target="#" class="block-currency dropdown-toggle" href="#"> USD <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li role="presentation"><a href="#"> $ - Dollar </a> </li>
-                  <li role="presentation"><a href="#"> £ - Pound </a> </li>
-                  <li role="presentation"><a href="#"> € - Euro </a> </li>
-                </ul>
-              </div>
+             
               <!-- End Header Currency -->
-              <div class="welcome-msg"> Default welcome msg! </div>
+              <div class="welcome-msg"> Welcome To Our Market !!! </div>
             </div>
             <div class="col-xs-6 hidden-xs"> 
               <!-- Header Top Links -->
               <div class="toplinks">
                 <div class="links">
-                  <div class="myaccount"><a title="My Account" href="login.html"><span class="hidden-xs">My Account</span></a> </div>
-                  <div class="check"><a title="Checkout" href="checkout.html"><span class="hidden-xs">Checkout</span></a> </div>
-                  <div class="demo"><a title="Blog" href="blog.html"><span class="hidden-xs">Blog</span></a> </div>
-                  <!-- Header Company -->
-                  <div class="dropdown block-company-wrapper hidden-xs"> <a role="button" data-toggle="dropdown" data-target="#" class="block-company dropdown-toggle" href="#"> Company <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li role="presentation"><a href="about_us.html"> About Us </a> </li>
-                      <li role="presentation"><a href="#"> Customer Service </a> </li>
-                      <li role="presentation"><a href="#"> Privacy Policy </a> </li>
-                      <li role="presentation"><a href="sitemap.html">Site Map </a> </li>
-                      <li role="presentation"><a href="#">Search Terms </a> </li>
-                      <li role="presentation"><a href="#">Advanced Search </a> </li>
-                    </ul>
-                  </div>
+                <div class="demo"><a title="Blog" href="blog.html"><span class="hidden-xs">Blog</span></a> </div>
+                  <div class="myaccount"><a title="My Account" href="login.html"><span class="hidden-xs">About Us</span></a> </div>
+                  <div class="check"><a title="Checkout" href="checkout.html"><span class="hidden-xs">Customer Service</span></a> </div>
+                  
                   <!-- End Header Company -->
                   
-                  <div class="login"><a href="login.html"><span class="hidden-xs">Log In</span></a> </div>
+                  <div class="login"><a href="/login"><span class="hidden-xs">Log In</span></a> </div>
                 </div>
               </div>
               <!-- End Header Top Links --> 
@@ -56,7 +34,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 header-phone">
-           <i class="fa fa-mobile"></i>  + 0800 567 345
+           <i class="fa fa-mobile"></i> +1 (905)-625-1692 
           </div>
           <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12 logo-block"> 
             <!-- Header Logo -->
@@ -65,12 +43,7 @@
           </div>
           
 <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 hidden-xs">
-            <div class="search-box">
-              <form action="cat" method="POST" id="search_mini_form" name="Categories">
-                <input type="text" placeholder="Search entire store here..." value="Search" maxlength="70" name="search" id="search">
-                <button type="button" class="search-btn-bg"><span class="glyphicon glyphicon-search"></span>&nbsp;</button>
-              </form>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -88,38 +61,22 @@
       <div class="nav-inner"> 
         <!-- BEGIN NAV -->
         <ul id="nav" class="hidden-xs">
-          <li class="level0 parent drop-menu" id="nav-home"><a href="index.html" class="level-top"><i class="fa fa-home"></i><span class="hidden">Home</span></a>
-            <ul style="display: none;" class="level1">
-              <li class="level1"><a href="index.html"><span>Fashion Store</span></a> </li>
-              <li class="level1"><a href="../digital/index.html"><span>Digital Store</span></a> </li>
-              <li class="level1"><a href="../furniture/index.html"><span>Furniture Store</span></a> </li>
-              <li class="level1"><a href="../jewellery/index.html"><span>Jewellery Store</span></a> </li>
-            </ul>
+          <li class="level0 parent drop-menu" id="nav-home"><a href="{{asset('/')}}" class="level-top"><i class="fa fa-home"></i><span class="hidden">Home</span></a>
+            
           </li>
-          <li class="level0 nav-6 level-top drop-menu"> <a class="level-top" href="#"> <span>Pages</span> </a>
+          <li class="level0 nav-6 level-top drop-menu"> <a class="level-top" href="#"> <span>Produce</span> </a>
             <ul class="level1">
               <li class="level2 first"><a href="grid.html"><span>Grid</span></a> </li>
               <li class="level2 nav-10-2"> <a href="list.html"> <span>List</span> </a> </li>
               <li class="level2 nav-10-3"> <a href="product_detail.html"> <span>Product Detail</span> </a> </li>
               <li class="level2 nav-10-4"> <a href="shopping_cart.html"> <span>Shopping Cart</span> </a> </li>
                <li class="level2 nav-10-4"> <a href="blog.html"> <span>Blog</span> </a> </li>
-                <li class="level2 nav-10-4"> <a href="blog_single_post.html"> <span>Blog Detail</span> </a> </li>
-              <li class="level2 parent"><a href="checkout.html"><span>Checkout</span></a> </li>
-              <li class="level1 nav-10-4"> <a href="wishlist.html"> <span>Wishlist</span> </a> </li>
-              <li class="level1"> <a href="dashboard.html"> <span>Dashboard</span> </a> </li>
-              <li class="level1"> <a href="multiple_addresses.html"> <span>Multiple Addresses</span> </a> </li>
-              <li class="level1"><a href="compare.html"><span>Compare</span></a> </li>
-               <li class="level2 nav-10-4"> <a href="login.html"> <span>Login</span> </a> </li>
-                <li class="level2 nav-10-4"> <a href="about_us.html"> <span>About Us</span> </a> </li>
-                 <li class="level2 nav-10-4"> <a href="faq.html"> <span>Faq</span> </a> </li>
-                  <li class="level2 nav-10-4"> <a href="contact_us.html"> <span>Contact Us</span> </a> </li>
-                   <li class="level2 nav-10-4"> <a href="sitemap.html"> <span>Sitemap</span> </a> </li>
-              <li class="level1"><a href="quick_view.html"><span>Quick View</span></a> </li>
-              <li class="level1"><a href="newsletter.html"><span>Newsletter</span></a> </li>
-              <li class="level1"><a href="404error.html"><span>404 Error Page</span></a> </li>
+           
+              
+          
             </ul>
           </li>
-          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Salads</span></a>
+          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Bakery</span></a>
             <div class="level0-wrapper dropdown-6col">
               <div class="container">
                 <div class="level0-wrapper2">
@@ -197,7 +154,7 @@
             <!--level0-wrapper dropdown-6col--> 
             <!--mega menu--> 
           </li>
-          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Soups‎</span></a>
+          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Deli</span></a>
             <div class="level0-wrapper dropdown-6col">
               <div class="container">
                 <div class="level0-wrapper2">
@@ -270,7 +227,7 @@
             <!--level0-wrapper dropdown-6col--> 
             <!--mega menu--> 
           </li>
-          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Fast Food</span></a>
+          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Hot Table</span></a>
             <div class="level0-wrapper dropdown-6col">
               <div class="container">
                 <div class="level0-wrapper2">
@@ -338,7 +295,7 @@
             <!--level0-wrapper dropdown-6col--> 
             <!--mega menu--> 
           </li>
-          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Sandwiches‎</span></a>
+          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Meat Shop‎</span></a>
             <div class="level0-wrapper dropdown-6col">
               <div class="container">
                 <div class="level0-wrapper2">
@@ -390,8 +347,8 @@
             <!--level0-wrapper dropdown-6col--> 
             <!--mega menu--> 
           </li>
-          <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Fruits</span></a> </li>
-          <li class="nav-custom-link mega-menu"> <a href="#" class="level-top"> <span>Custom</span> </a>
+        
+          <li class="nav-custom-link mega-menu"> <a href="#" class="level-top"> <span>Fruits</span> </a>
             <div class="level0-wrapper custom-menu">
               <div class="container">
                 <div class="header-nav-dropdown-wrapper clearer">
